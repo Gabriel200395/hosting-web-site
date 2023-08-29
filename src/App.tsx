@@ -1,9 +1,11 @@
-import { Banner } from "./components"
+import { Banner, Services, Experience } from "./components"
 
 function App() {
   return (
     <>
       <Banner />
+      <Services />
+      <Experience />
     </>
   )
 }
