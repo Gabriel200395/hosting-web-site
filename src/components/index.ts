@@ -3,7 +3,8 @@ import Services from "./services"
 import Experience from "./experience"
 import Host from "./host"
 import Happy from "./happy"
-import Level from "./level"
+import Level from "./level" 
+import SharedHosting from "./sharedHosting"
 
 export {
     Banner,
@@ -11,5 +12,6 @@ export {
     Experience,
     Host,
     Happy,
-    Level
+    Level, 
+    SharedHosting
 }

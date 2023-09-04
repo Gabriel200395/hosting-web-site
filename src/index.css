@@ -7,3 +7,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    .hover-card:hover button {
+        border: none;
+        background-color: #fff;
+    }
+}
