@@ -4,7 +4,9 @@ import Experience from "./experience"
 import Host from "./host"
 import Happy from "./happy"
 import Level from "./level" 
-import SharedHosting from "./sharedHosting"
+import SharedHosting from "./sharedHosting" 
+import Questions from "./questions" 
+import MoneyBack from "./moneyBack"
 
 export {
     Banner,
@@ -13,5 +15,7 @@ export {
     Host,
     Happy,
     Level, 
-    SharedHosting
+    SharedHosting, 
+    Questions, 
+    MoneyBack
 }

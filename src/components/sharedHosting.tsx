@@ -2,7 +2,7 @@ const SharedHosting = () => {
     return (
         <section className="h-full bg-[#582AF7] flex flex-col justify-center items-center px-5 py-5">
             <h4 className=" text-white text-3xl mb-5 font-semibold max-w-xs text-center">So what's in Shared Hosting? A whole lot.</h4>
-            <div className="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-5">
+            <div className="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1">
                 <div className="
                  flex flex-col items-center justify-between py-5 
                  text-[#002348] px-20 rounded-xl cursor-pointer
