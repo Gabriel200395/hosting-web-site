@@ -1,4 +1,4 @@
-import { Banner, Services, Experience, Host, Happy } from "./components"
+import { Banner, Services, Experience, Host, Happy, Level } from "./components"
 
 function App() {
   return (
@@ -7,7 +7,8 @@ function App() {
       <Services />
       <Experience />
       <Host />
-      <Happy />
+      <Happy /> 
+      <Level />
     </>
   )
 }
