@@ -1,6 +1,6 @@
 const Experience = () => {
     return (
-        <section className="bg-gradient-to-l  from-blue-400 to-[#582AF7] h-full w-full py-10 flex justify-center flex-col items-center px-5 bg-cover bg-no-repeat">
+        <section className="bg-gradient-to-l  from-blue-600 to-[#582AF7] h-full w-full py-10 flex justify-center flex-col items-center px-5">
             <h2 className="text-2xl max-w-md text-center font-bold text-white mb-5">Have you ever experienced problems in managing a website?</h2>
             <p className="text-white text-base text-center mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 max-w-7xl">

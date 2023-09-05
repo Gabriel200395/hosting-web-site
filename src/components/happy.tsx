@@ -1,7 +1,7 @@
 const Happy = () => {
     return (
-        <section className="h-full w-full py-10 flex justify-center items-start bg-[#582AF7]">
-            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 max-w-7xl px-5">
+        <section className="h-full w-full py-10 flex justify-center items-start hero-pattern-group ">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  px-5">
                 <div className="flex justify-center lg:justify-start md:justify-start lg:mb-0 md:mb-0 mb-10">
                     <img src="/illustration-Hosting.svg" alt="img" />
                 </div>

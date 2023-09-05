@@ -10,8 +10,43 @@
 
 
 @layer base {
-    .hover-card:hover button {
+    .hover-card-button:hover button {
         border: none;
         background-color: #fff;
+    } 
+    
+    .hero-pattern {
+        background-image: url('/public/wave.png'), linear-gradient(90deg, rgba(22,76,183,1) 0%, rgba(40,113,239,1) 39%); 
+        background-repeat: no-repeat; 
+        background-size: contain; 
+        height: 100%; 
+        width: 100%;
+    } 
+
+    .hero-pattern-group {
+        background-image: url('/public/group.png'), linear-gradient(90deg, rgba(88,42,247,1) 32%, rgba(40,113,239,1) 45%);        ; 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        height: 100%; 
+        width: 100%;  
+        background-position-y:bottom;
     }
+     
+    .hero-pattern-group-one {
+        background-image: url('/public/group-one.png'), linear-gradient(90deg, rgba(88,42,247,1) 32%, rgba(40,113,239,1) 45%);        ; 
+        background-repeat: no-repeat; 
+        height: 100%; 
+        background-size:cover;
+        width: 100%;   
+        background-position-x: right; 
+    }
+    
+}
+
+@layer components {
+    .card-item {
+        @apply flex flex-col items-center justify-between py-5 text-[#002348] px-20 hover:rounded-xl cursor-pointer hover:h-72 bg-white h-64 hover:bg-[#EF7F3C] hover:text-white hover:-translate-y-4 hover-card-button
+    }
+
+
 }
