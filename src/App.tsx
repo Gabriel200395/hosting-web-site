@@ -7,7 +7,9 @@ import {
   Level,
   SharedHosting,
   Questions,
-  MoneyBack
+  MoneyBack,
+  Payment,
+  Business
 } from "./components"
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
       <SharedHosting />
       <Questions />
       <MoneyBack />
+      <Payment />
+      <Business />
     </>
   )
 }

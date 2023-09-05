@@ -3,10 +3,12 @@ import Services from "./services"
 import Experience from "./experience"
 import Host from "./host"
 import Happy from "./happy"
-import Level from "./level" 
-import SharedHosting from "./sharedHosting" 
-import Questions from "./questions" 
+import Level from "./level"
+import SharedHosting from "./sharedHosting"
+import Questions from "./questions"
 import MoneyBack from "./moneyBack"
+import Payment from "./payment" 
+import Business from "./business"
 
 export {
     Banner,
@@ -14,8 +16,10 @@ export {
     Experience,
     Host,
     Happy,
-    Level, 
-    SharedHosting, 
-    Questions, 
-    MoneyBack
+    Level,
+    SharedHosting,
+    Questions,
+    MoneyBack,
+    Payment, 
+    Business
 }
